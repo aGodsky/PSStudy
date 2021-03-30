@@ -1,0 +1,5 @@
+##Get type of computer
+Get-ComputerInfo | Select-Object -Property OsProductType
+
+##Find Interface withing Class C subnets
+Get-NetIPAddress -PrefixLength 24
